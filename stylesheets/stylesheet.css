@@ -122,6 +122,28 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 5px 0;
 }
 
+input {
+    width:375px;
+    display: block;
+    height: 25px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#body {
+    width: 375px;
+    height: 150px;
+}
+
+label[for=body] { 
+    display: block;
+}
+label[for=type] { 
+    display: block;
+}
+
 dt {
   font-style: italic;
   font-weight: bold;
