@@ -1,0 +1,390 @@
+/* Misc styling */
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+/*	background-color: #092C36;*/
+	background-color: #ffffff;
+        background-size: auto;
+	font-family: "Titillium Web", sans-serif;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+
+/* Responsive adjustments */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #recent {
+	background-color: #fcff94; 
+   }
+}
+/* End Responsive Adjustments */
+
+/* End Misc styling */
+
+/* original hover effect */
+a.fill-div {
+	display: block;
+	text-decoration: none;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+
+}
+
+
+/* Header div */
+#header {
+	background-image: url('../images/Front_Logo.png');
+	height: 450px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+
+#header h2 {
+	text-align: center;
+	color: #FCEE21;
+	padding-top: 100px;
+	font-size: 60px;
+	font-family: "Titillium Web", sans-serif;
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+}
+
+@media (max-width: 450px) {
+	#header {
+                background-image: url('../images/Back_Logo.png');
+                padding: 1px;
+                background-size: 370px;
+                background-repeat:no-repeat;
+                height: 370px; 
+	}
+	#header h2 {
+				text-align: center;
+				color: #ee0000;
+				font-size: 28px;
+				padding-top: 48px;
+				position: absolute;
+				left: 50px;
+				bottom: 10px;
+	}
+
+}
+
+
+/* End Header Div */
+
+
+/* List Div */
+      li {
+	    text-align: left;
+	 }
+
+/* End List Div */
+
+/* Standard paragraph */
+       p {
+	    font-size: 16px;
+	    padding: 10px;
+	 }
+/* End paragraph */
+
+/* Recent Activity Div */
+#recent {
+	background-color: #ffffff;
+	text-align: center;
+        position: relative;
+        top: -20px;
+        /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+
+}
+
+#recent h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#recent p {
+	color: #092C36;
+	font-weight: 200;
+
+
+}
+
+#recent p i {
+	font-size: 40px;
+
+}
+
+#recent a:hover {
+    background-color: #FFFF00;
+}
+/* End Recent Activity Div */
+/* Server Div */
+
+#servers {
+	background-color: #E2DDD9;
+	text-align: center;
+        position: relative;
+        top: -20px;
+        /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+}
+
+#servers h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#servers p {
+	color: #0E6075;
+	font-weight: 200;
+
+}
+#servers p i {
+	font-size: 40px;
+}
+
+#servers a:hover {
+	background-color: #FFFF00;
+}
+/* End servers Div */
+/* Adds Div */
+
+#adds {
+	background-color: #1CC3EA; 
+	text-align: center;
+    position: relative;
+        top: -20px;
+                /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+}
+
+#adds h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#adds p {
+	color: #051C22;
+	font-weight: 200;
+
+}
+#adds p i {
+	font-size: 40px;
+}
+
+#adds a:hover {
+	background-color: #FFFF00;
+}
+/* End Adds Div */
+
+/* Drops Div */
+
+#drops {
+	background-color: #0E6075;
+	text-align: center;
+position: relative;
+        top: -20px;
+                        /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #1e2528;
+        -webkit-box-shadow: 1px 1px 5px 6px #1e2528;
+        box-shadow:         1px 1px 5px 6px #1e2528;
+        /* End shadow outline */
+}
+
+#drops h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#drops p {
+	color: #E2DDD9;
+	font-weight: 200;
+
+}
+#drops p i {
+	font-size: 40px;
+}
+
+#drops a:hover {
+	background-color: #FFFF00;
+}
+/* End Drops Div */
+
+/* Trials Div */
+
+#trials {
+	background-color: #092C36;
+	text-align: center;
+position: relative;
+        top: -20px;
+         /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #222;
+        -webkit-box-shadow: 1px 1px 5px 6px #222;
+        box-shadow:         1px 1px 5px 6px #222;
+        /* End shadow outline */
+}
+
+#trials h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#trials p {
+	color: #ffffff;
+	font-weight: 200;
+
+}
+#trials p i {
+	font-size: 40px;
+}
+
+#trials a:hover {
+	background-color: #FFFF00;
+}
+/* End Trials Div */
+
+/* Back button Div */
+#back {
+	background-color: #c2e5f0;
+	text-align: center;
+        position: relative;
+        top: -20px;
+        /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+
+}
+
+#back h2 {
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#back p {
+	color: #ffffff;
+	font-weight: 200;
+
+
+}
+
+#back p i {
+	font-size: 40px;
+
+}
+
+#back a:hover {
+    background-color: #df3220;
+}
+/* End Back button Div */
+
+/* Data Body Div */
+#databody {
+	background-color: #ffffff;
+	text-align: center;
+    position: relative;
+    top: -39px;
+    height: auto;
+
+
+}
+
+#databody h2 {
+	color: #000000;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+#databody p {
+	color: #000000;
+	font-weight: 200;
+
+
+}
+
+#databody p i {
+	font-size: 40px;
+
+}
+
+#databody a:hover {
+   /* background-color: #ffffff; */
+}
+/* End Data Body Div */
+
+#gravatar {
+	background-image: url('../images/User.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	/* background-color: #def1f6; */
+    background-color: transparent;
+	height: 150px;
+	width: 150px;
+	padding-left: 10px;
+	position: relative;
+        left: -100px;
+}
+
+#gravatar p {
+	position: absolute;
+	bottom: -12;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 5px;
+}
+
+#user_info_1 {
+	height: auto;
+        width: 190px;
+        position: relative;
+	right: -65px;
+        top: -150px;
+        padding-right: 5px;
+       /* background-color: #def1f6; */
+        background-color: transparent;
+        padding-top: 30px;
+        overflow: hidden;
+        margin-left: 20px;
+        padding: 5px;
+}
