@@ -12,12 +12,53 @@ body {
 	-webkit-font-smoothing: antialiased !important;
 }
 
-
+table {
+	width:100%;
+        text-align:center;
+        padding:5px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+th    {
+	text-align:center;
+	font-family: "Titillium Web", sans-serif;
+	-webkit-font-smoothing: antialiased !important;
+	background-color: #c2e5f0;
+	font-size:20px;
+      }
+td    {
+	text-align:center;
+        border: 1px solid black;
+	border-collapse: collapse;
+        padding: 3px;
+      }
+#breakfast {
+        height:200px;
+         }
+#session {
+	background-color: #0E6075;
+	color: #FFFF00;
+        height:100px;
+         }
+#lightning {
+	background-color: #1CC3EA;
+	color: #FFFFFF;
+        height:100px;
+         }
+#open_spaces {
+	background-color: #FFFF00;
+        height:100px;
+	color: #000000;
+         }
+#social {
+	background-color: #6699FF;
+        height:500px;
+         }
 /* Responsive adjustments */
 
 @media (min-width: 768px) and (max-width: 991px) {
     #recent {
-	background-color: #fcff94; 
+	background-color: #fcff94;
    }
 }
 /* End Responsive Adjustments */
@@ -30,7 +71,7 @@ a.fill-div {
 	text-decoration: none;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	
+
 
 }
 
@@ -72,7 +113,7 @@ a.fill-div {
                 padding: 1px;
                 background-size: 370px;
                 background-repeat:no-repeat;
-                height: 370px; 
+                height: 370px;
 	}
 	#header h2 {
 				text-align: center;
@@ -104,46 +145,64 @@ a.fill-div {
 	 }
 /* End paragraph */
 
-/* Recent Activity Div */
-#recent {
+/* Main body Div */
+#main_body {
 	background-color: #ffffff;
 	text-align: center;
-        position: relative;
-        top: -20px;
-        /* shadow outline */
-		-moz-box-shadow:    1px 1px 5px 6px #445359;
-        -webkit-box-shadow: 1px 1px 5px 6px #445359;
-        box-shadow:         1px 1px 5px 6px #445359;
-        /* End shadow outline */
+	position: relative;
+	top: -20px;
+}
+#main_body h2 {
+		font-size: 32px;
+		font-family: "Titillium Web", sans-serif;
+}
+
+#main_body p {
+		font_size: 16px;
+		font-family: "Titillium Web", sans-serif;
+}
+/* End of main body Div */
+
+/* Info Div */
+#info {
+	background-color: #ffffff;
+	text-align: center;
+  position: relative;
+  top: -20px;
+  /* shadow outline */
+	-moz-box-shadow:    1px 1px 5px 6px #445359;
+  -webkit-box-shadow: 1px 1px 5px 6px #445359;
+  box-shadow:         1px 1px 5px 6px #445359;
+  /* End shadow outline */
 
 }
 
-#recent h2 {
+#info h2 {
 	color: #EF3224;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
 
 }
 
-#recent p {
+#info p {
 	color: #092C36;
 	font-weight: 200;
 
 
 }
 
-#recent p i {
+#info p i {
 	font-size: 40px;
 
 }
 
-#recent a:hover {
+#info a:hover {
     background-color: #FFFF00;
 }
 /* End Recent Activity Div */
 /* Server Div */
 
-#servers {
+#sponsors {
 	background-color: #E2DDD9;
 	text-align: center;
         position: relative;
@@ -155,30 +214,30 @@ a.fill-div {
         /* End shadow outline */
 }
 
-#servers h2 {
+#sponsors h2 {
 	color: #EF3224;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
 
 }
 
-#servers p {
+#sponsors p {
 	color: #0E6075;
 	font-weight: 200;
 
 }
-#servers p i {
+#sponsors p i {
 	font-size: 40px;
 }
 
-#servers a:hover {
+#sponsors a:hover {
 	background-color: #FFFF00;
 }
-/* End servers Div */
+/* End sponsors Div */
 /* Adds Div */
 
-#adds {
-	background-color: #1CC3EA; 
+#register {
+	background-color: #1CC3EA;
 	text-align: center;
     position: relative;
         top: -20px;
@@ -189,30 +248,30 @@ a.fill-div {
         /* End shadow outline */
 }
 
-#adds h2 {
+#register h2 {
 	color: #EF3224;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
 
 }
 
-#adds p {
+#register p {
 	color: #051C22;
 	font-weight: 200;
 
 }
-#adds p i {
+#register p i {
 	font-size: 40px;
 }
 
-#adds a:hover {
+#register a:hover {
 	background-color: #FFFF00;
 }
-/* End Adds Div */
+/* End Register Div */
 
 /* Drops Div */
 
-#drops {
+#program {
 	background-color: #0E6075;
 	text-align: center;
 position: relative;
@@ -224,30 +283,30 @@ position: relative;
         /* End shadow outline */
 }
 
-#drops h2 {
+#program h2 {
 	color: #EF3224;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
 
 }
 
-#drops p {
+#program p {
 	color: #E2DDD9;
 	font-weight: 200;
 
 }
-#drops p i {
+#program p i {
 	font-size: 40px;
 }
 
-#drops a:hover {
+#program a:hover {
 	background-color: #FFFF00;
 }
-/* End Drops Div */
+/* End Program Div */
 
 /* Trials Div */
 
-#trials {
+#contact {
 	background-color: #092C36;
 	text-align: center;
 position: relative;
@@ -259,26 +318,26 @@ position: relative;
         /* End shadow outline */
 }
 
-#trials h2 {
+#contact h2 {
 	color: #EF3224;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
 
 }
 
-#trials p {
+#contact p {
 	color: #ffffff;
 	font-weight: 200;
 
 }
-#trials p i {
+#contact p i {
 	font-size: 40px;
 }
 
-#trials a:hover {
+#contact a:hover {
 	background-color: #FFFF00;
 }
-/* End Trials Div */
+/* End Contact Div */
 
 /* Back button Div */
 #back {
@@ -287,7 +346,7 @@ position: relative;
         position: relative;
         top: -20px;
         /* shadow outline */
-		-moz-box-shadow:    1px 1px 5px 6px #445359;
+		    -moz-box-shadow:    1px 1px 5px 6px #445359;
         -webkit-box-shadow: 1px 1px 5px 6px #445359;
         box-shadow:         1px 1px 5px 6px #445359;
         /* End shadow outline */
@@ -319,72 +378,291 @@ position: relative;
 /* End Back button Div */
 
 /* Data Body Div */
-#databody {
+#conduct {
 	background-color: #ffffff;
 	text-align: center;
     position: relative;
     top: -39px;
     height: auto;
 
+        /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
 
 }
 
-#databody h2 {
+#conduct h2 {
 	color: #000000;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
-
 }
 
-#databody p {
+#conduct p {
 	color: #000000;
 	font-weight: 200;
-
-
 }
 
-#databody p i {
+#conduct p i {
 	font-size: 40px;
 
 }
 
-#databody a:hover {
-   /* background-color: #ffffff; */
+#conduct a:hover {
+    background-color: #FFFF00;
 }
-/* End Data Body Div */
+/* End Conduct Div */
 
-#gravatar {
-	background-image: url('../images/User.png');
-	background-position:center;
-	background-repeat:no-repeat;
-	/* background-color: #def1f6; */
-    background-color: transparent;
-	height: 150px;
-	width: 150px;
-	padding-left: 10px;
-	position: relative;
-        left: -100px;
-}
+/* Custom sponsor headers */
+#salesforce_header {
+	background-image: url('../sponsors/images/salesforce_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 
-#gravatar p {
-	position: absolute;
-	bottom: -12;
-	font-weight: bold;
-	margin-left: 3px;
-	margin-top: 5px;
-}
-
-#user_info_1 {
-	height: auto;
-        width: 190px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
         position: relative;
-	right: -65px;
-        top: -150px;
-        padding-right: 5px;
-       /* background-color: #def1f6; */
-        background-color: transparent;
-        padding-top: 30px;
-        overflow: hidden;
-        margin-left: 20px;
-        padding: 5px;
+        top: -10px;
 }
+#salesforce_small_image {
+	background-image: url('../sponsors/images/salesforce_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+	text-align: -10px;
+
+}
+
+#salesforce_small_image p{
+	position: relative;
+    right: -10px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
+#victorops_header {
+	background-image: url('../sponsors/images/victorops_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+#victorops_small_image {
+	background-image: url('../sponsors/images/victorops_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+
+}
+#victorops_small_image p {
+	position: relative;
+    right: -10px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
+
+#go_header {
+	background-image: url('../sponsors/images/Go_large.jpeg');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+
+#go_small_image {
+	background-image: url('../sponsors/images/Go_large.jpeg');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+
+}
+#go_small_image p{
+	position: relative;
+    right: -10px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
+/* End Custom Sponsor headers */
+
+/* Custom Speaker list */
+#paul {
+	background-color: #E2DDD9;
+	text-align: center;
+        position: relative;
+        top: -20px;
+        /* shadow outline */
+		-moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+}
+
+#paul {
+	background-color: #ffffff;
+	text-align: center;
+        position: relative;
+        top: -20px;
+        /* shadow outline */
+		    -moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+				background-image: url('../speakers/images/JPaulReed.jpeg');
+				height: 250px;
+				-webkit-background-size: 100%;
+				-moz-background-size: 100%;
+				-o-background-size: 100%;
+				background-size: 100%;
+
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				background-attachment: relative;
+				background-position: center center;
+				position: relative;
+				text-align: -10px;
+}
+
+#paul h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+	position: relative;
+	right: -100px;
+	bottom: -170px;
+
+}
+
+#paul p {
+	color: #FFFF00;
+	font-weight: 200;
+	position: relative;
+	right: -150px;
+	bottom: -150px;
+
+}
+#paul p i {
+	font-size: 40px;
+}
+#ryan {
+	background-color: #ffffff;
+	text-align: center;
+        position: relative;
+        top: -20px;
+        /* shadow outline */
+		    -moz-box-shadow:    1px 1px 5px 6px #445359;
+        -webkit-box-shadow: 1px 1px 5px 6px #445359;
+        box-shadow:         1px 1px 5px 6px #445359;
+        /* End shadow outline */
+				background-image: url('../speakers/images/ryan_frantz.jpeg');
+				height: 250px;
+				-webkit-background-size: 100%;
+				-moz-background-size: 100%;
+				-o-background-size: 100%;
+				background-size: 100%;
+
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				background-attachment: relative;
+				background-position: center center;
+				position: relative;
+				text-align: -10px;
+}
+
+#ryan h2 {
+	color: #EF3224;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+	position: relative;
+	right: -100px;
+	bottom: -170px;
+
+}
+
+#ryan p {
+	color: #FFFF00;
+	font-weight: 200;
+	position: relative;
+	right: -150px;
+	bottom: -150px;
+
+}
+#ryan p i {
+	font-size: 40px;
+}
+
+
+
+/* End custom speaker list */
