@@ -163,6 +163,45 @@ a.fill-div {
 }
 /* End of main body Div */
 
+
+/* Speakers Div */
+#speakers {
+	background-color: #f20808;
+	text-align: center;
+  position: relative;
+  top: -20px;
+  /* shadow outline */
+	-moz-box-shadow:    1px 1px 5px 6px #445359;
+  -webkit-box-shadow: 1px 1px 5px 6px #445359;
+  box-shadow:         1px 1px 5px 6px #445359;
+  /* End shadow outline */
+
+}
+
+#speakers h2 {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+	color: #092C36;
+
+}
+
+#speakers p {
+	color: #092C36;
+	font-weight: 200;
+
+
+}
+
+#speakers p i {
+	font-size: 40px;
+
+}
+
+#speakers a:hover {
+    background-color: #FFFF00;
+}
+/* End Speakers Activity Div */
 /* Info Div */
 #info {
 	background-color: #ffffff;
@@ -199,7 +238,7 @@ a.fill-div {
 #info a:hover {
     background-color: #FFFF00;
 }
-/* End Recent Activity Div */
+/* End Info Activity Div */
 /* Server Div */
 
 #sponsors {
@@ -397,6 +436,7 @@ position: relative;
 	color: #000000;
 	font-weight: 400;
 	font-family: "Titillium Web", sans-serif;
+	color: #EF3224;
 }
 
 #conduct p {
@@ -506,8 +546,70 @@ position: relative;
 		color: #000000;
 }
 
+#fortrust_header {
+	background-image: url('../sponsors/images/fortrust_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+#fortrust_header_2 {
+	background-image: url('../sponsors/images/fortrust_large_2.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+#fortrust_small_image {
+	background-image: url('../sponsors/images/fortrust_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+
+}
+#fortrust_small_image p {
+	position: relative;
+    right: -10px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
 #go_header {
-	background-image: url('../sponsors/images/Go_large.jpeg');
+	background-image: url('../sponsors/images/Go_large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -547,6 +649,51 @@ position: relative;
 	position: relative;
     right: -10px;
 		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
+#shutterstock_header {
+	background-image: url('../sponsors/images/Shutterstock-Logo.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+
+#shutterstock_small_image {
+	background-image: url('../sponsors/images/Shutterstock-Logo.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+
+}
+#shutterstock_small_image p{
+	position: relative;
+    right: -10px;
+		bottom: 50px;
 		text-decoration: none;
 		text-align: right;
 		color: #000000;
