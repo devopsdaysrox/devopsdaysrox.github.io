@@ -485,7 +485,7 @@ position: relative;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 50%;
+    width: 33%;
 	background-attachment: relative;
 	background-position: center center;
         position: relative;
@@ -628,7 +628,7 @@ position: relative;
 }
 
 #go_small_image {
-	background-image: url('../sponsors/images/Go_large.jpeg');
+	background-image: url('../sponsors/images/Go_large.png');
 	height: 135px;
 	-webkit-background-size: 50%;
     -moz-background-size: 50%;
@@ -639,7 +639,7 @@ position: relative;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 50%;
+    width: 33%;
 	background-attachment: relative;
 	background-position: center center;
         position: relative;
@@ -684,7 +684,7 @@ position: relative;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 50%;
+    width: 33%;
 	background-attachment: relative;
 	background-position: center center;
         position: relative;
@@ -693,12 +693,150 @@ position: relative;
 #shutterstock_small_image p{
 	position: relative;
     right: -10px;
-		bottom: 50px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
+#delphix_header {
+	background-image: url('../sponsors/images/delphix_large.jpg');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+#delphix_small_image {
+	background-image: url('../sponsors/images/delphix_large.jpg');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+	text-align: -50px;
+
+}
+
+#delphix_small_image p{
+	position: relative;
+    right: -10px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
+#trackvia_header {
+	background-image: url('../sponsors/images/TrackVia-Large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+#trackvia_small_image {
+	background-image: url('../sponsors/images/TrackVia-Large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+	text-align: -10px;
+
+}
+
+#trackvia_small_image p{
+	position: relative;
+    right: -10px;
+		bottom: -60px;
 		text-decoration: none;
 		text-align: right;
 		color: #000000;
 }
 
+#pagerduty_header {
+	background-image: url('../sponsors/images/PagerDuty_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+        top: -10px;
+}
+#pagerduty_small_image {
+	background-image: url('../sponsors/images/PagerDuty_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+        position: relative;
+	text-align: -10px;
+
+}
+
+#pagerduty_small_image p{
+	position: relative;
+    right: -10px;
+		bottom: -60px;
+		text-decoration: none;
+		text-align: right;
+		color: #000000;
+}
 #oreilly_header {
 	background-image: url('../sponsors/images/oreilly_large.png');
 	height: 350px;
@@ -720,7 +858,7 @@ position: relative;
 
 #oreilly_small_image {
 	background-image: url('../sponsors/images/oreilly_large.png');
-	height: 135px;
+	height: 235px;
 	-webkit-background-size: 50%;
     -moz-background-size: 50%;
     -o-background-size: 50%;
@@ -730,8 +868,8 @@ position: relative;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 50%;
-	background-attachment: relative;
+    width: 100px;
+	background-attachment: absolute;
 	background-position: center center;
         position: relative;
 
