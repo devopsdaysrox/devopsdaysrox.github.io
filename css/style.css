@@ -654,7 +654,7 @@ position: relative;
 		color: #000000;
 }
 #shutterstock_header {
-	background-image: url('../sponsors/images/Shutterstock-Logo.png');
+	background-image: url('../sponsors/images/shutterstock-logo.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -673,7 +673,7 @@ position: relative;
 }
 
 #shutterstock_small_image {
-	background-image: url('../sponsors/images/Shutterstock-Logo.png');
+	background-image: url('../sponsors/images/shutterstock-logo.png');
 	height: 135px;
 	-webkit-background-size: 50%;
     -moz-background-size: 50%;
@@ -745,7 +745,7 @@ position: relative;
 		color: #000000;
 }
 #trackvia_header {
-	background-image: url('../sponsors/images/TrackVia-Large.png');
+	background-image: url('../sponsors/images/track-via-Large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -763,7 +763,7 @@ position: relative;
         top: -10px;
 }
 #trackvia_small_image {
-	background-image: url('../sponsors/images/TrackVia-Large.png');
+	background-image: url('../sponsors/images/trackvia-large.png');
 	height: 135px;
 	-webkit-background-size: 50%;
     -moz-background-size: 50%;
@@ -792,7 +792,7 @@ position: relative;
 }
 
 #pagerduty_header {
-	background-image: url('../sponsors/images/PagerDuty_large.png');
+	background-image: url('../sponsors/images/pagerduty-large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
