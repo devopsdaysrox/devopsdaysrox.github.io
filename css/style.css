@@ -699,7 +699,7 @@ position: relative;
 		color: #000000;
 }
 #delphix_header {
-	background-image: url('../sponsors/images/delphix_large.jpg');
+	background-image: url('../sponsors/images/delphix_large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -717,7 +717,7 @@ position: relative;
         top: -10px;
 }
 #delphix_small_image {
-	background-image: url('../sponsors/images/delphix_large.jpg');
+	background-image: url('../sponsors/images/delphix_large.png');
 	height: 135px;
 	-webkit-background-size: 50%;
     -moz-background-size: 50%;
@@ -745,7 +745,7 @@ position: relative;
 		color: #000000;
 }
 #trackvia_header {
-	background-image: url('../sponsors/images/track-via-Large.png');
+	background-image: url('../sponsors/images/trackvia-large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -792,7 +792,7 @@ position: relative;
 }
 
 #pagerduty_header {
-	background-image: url('../sponsors/images/pagerduty-large.png');
+	background-image: url('../sponsors/images/pagerduty_large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -810,7 +810,7 @@ position: relative;
         top: -10px;
 }
 #pagerduty_small_image {
-	background-image: url('../sponsors/images/PagerDuty_large.png');
+	background-image: url('../sponsors/images/pagerduty_large.png');
 	height: 135px;
 	-webkit-background-size: 50%;
     -moz-background-size: 50%;
