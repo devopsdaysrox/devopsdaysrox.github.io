@@ -880,4 +880,51 @@ p {
 	color: #000000;
 }
 
+#sonatype_header {
+	background-image: url('../sponsors/images/sonatype_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+	/*max-width:750px;
+	margin-left:auto;
+	margin-right:auto; */
+}
+#sonatype_small_image {
+	background-image: url('../sponsors/images/sonatype_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -10px;
+}
+
+#sonatype_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+}
+
 /* End Custom Sponsor headers */
