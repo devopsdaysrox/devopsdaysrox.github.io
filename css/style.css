@@ -111,6 +111,16 @@ a.fill-div {
 	left: 50px;
 	bottom: 10px;
 }
+#header h3 {
+	text-align: right;
+	color: #FCEE21;
+	padding-top: 100px;
+	font-size: 30px;
+	font-family: "Titillium Web", sans-serif;
+	position: absolute;
+	left: 10px;
+	bottom: 200px;
+}
 
 @media (max-width: 450px) {
 	#header {
@@ -129,6 +139,15 @@ a.fill-div {
 	position: absolute;
 	left: 50px;
 	bottom: 10px;
+	}
+	#header h3 {
+	text-align: center;
+	color: #ee0000;
+	font-size: 18px;
+	padding-top: 5px;
+	position: absolute;
+	left: 50px;
+	top: 1px;
 	}
 }
 
