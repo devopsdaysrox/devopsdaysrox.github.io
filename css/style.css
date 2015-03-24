@@ -972,9 +972,9 @@ p {
 	background-position: center center;
   position: relative;
   top: -10px;
-	/*max-width:750px;
+	max-width:500px;
 	margin-left:auto;
-	margin-right:auto; */
+	margin-right:auto;
 }
 #chef_small_image {
 	background-image: url('../sponsors/images/chef_large.png');
@@ -1019,9 +1019,9 @@ p {
 	background-position: center center;
   position: relative;
   top: -10px;
-	/*max-width:750px;
+	max-width:750px;
 	margin-left:auto;
-	margin-right:auto; */
+	margin-right:auto;
 }
 #craftsy_small_image {
 	background-image: url('../sponsors/images/craftsy_large.png');
