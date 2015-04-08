@@ -1050,4 +1050,100 @@ p {
 	color: #000000;
 	visibility: hidden;
 }
+
+#rancher_header {
+	background-image: url('../sponsors/images/rancher_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+	max-width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#rancher_small_image {
+	background-image: url('../sponsors/images/rancher_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -10px;
+}
+
+#rancher_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+	visibility: hidden;
+	margin-left:30px;
+}
+
+#scout_header {
+	background-image: url('../sponsors/images/scout_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+}
+#scout_small_image {
+	background-image: url('../sponsors/images/scout_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -50px;
+}
+
+#scout_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+	visibility: hidden;
+}
+
 /* End Custom Sponsor headers */
