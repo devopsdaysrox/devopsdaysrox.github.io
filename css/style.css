@@ -519,7 +519,7 @@ p {
 	visibility: hidden;
 }
 #victorops_header {
-	background-image: url('../sponsors/images/victorops_large.png');
+	background-image: url('../sponsors/images/victorops_large_2.png');
 	height: 350px;
 	-webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -1191,4 +1191,180 @@ p {
 	visibility: hidden;
 }
 
+#newrelic_header {
+	background-image: url('../sponsors/images/newrelic_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+}
+#newrelic_small_image {
+	background-image: url('../sponsors/images/newrelic_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -50px;
+}
+
+#newrelic_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+	visibility: hidden;
+}
+#qwinix_header {
+	background-image: url('../sponsors/images/qwinix_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+}
+#qwinix_small_image {
+	background-image: url('../sponsors/images/qwinix_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -50px;
+}
+
+#qwinix_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+	visibility: hidden;
+}
+#appliedtrust_header {
+	background-image: url('../sponsors/images/appliedtrust_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+}
+#appliedtrust_small_image {
+	background-image: url('../sponsors/images/appliedtrust_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -50px;
+}
+
+#appliedtrust_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+	visibility: hidden;
+}
+#happyapps_header {
+	background-image: url('../sponsors/images/happyapps_large.png');
+	height: 350px;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+  top: -10px;
+}
+#happyapps_small_image {
+	background-image: url('../sponsors/images/happyapps_large.png');
+	height: 135px;
+	-webkit-background-size: 50%;
+  -moz-background-size: 50%;
+  -o-background-size: 50%;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 33%;
+	background-attachment: relative;
+	background-position: center center;
+  position: relative;
+	text-align: -50px;
+}
+
+#happyapps_small_image p{
+	position: relative;
+  right: -10px;
+	bottom: -60px;
+	text-decoration: none;
+	text-align: right;
+	color: #000000;
+	visibility: hidden;
+}
 /* End Custom Sponsor headers */
