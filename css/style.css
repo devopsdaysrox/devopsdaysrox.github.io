@@ -1147,7 +1147,7 @@ p {
 }
 
 #sdl_header {
-	background-image: url('../sponsors/images/sdl_large.png');
+	background-image: url('../sponsors/images/SDL_large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -1164,7 +1164,7 @@ p {
   top: -10px;
 }
 #sdl_small_image {
-	background-image: url('../sponsors/images/sdl_large.png');
+	background-image: url('../sponsors/images/SDL_large.png');
 	height: 135px;
 	-webkit-background-size: 50%;
   -moz-background-size: 50%;
