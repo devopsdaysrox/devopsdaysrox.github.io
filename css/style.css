@@ -11,6 +11,10 @@ body {
 	-webkit-font-smoothing: antialiased !important;
 }
 
+body p i {
+	font-size:80px;
+}
+
 table {
 	width:100%;
   text-align:center;
