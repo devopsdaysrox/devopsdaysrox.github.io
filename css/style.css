@@ -474,6 +474,42 @@ p {
 }
 /* End Conduct Div */
 
+/* Data Chatops Div */
+#chatops {
+	background-color: #c2e5f0;
+	text-align: center;
+  position: relative;
+  top: -39px;
+  height: auto;
+	/* shadow outline */
+	-moz-box-shadow:    1px 1px 5px 6px #445359;
+  -webkit-box-shadow: 1px 1px 5px 6px #445359;
+  box-shadow:         1px 1px 5px 6px #445359;
+  /* End shadow outline */
+
+}
+
+#chatops h2 {
+	color: #000000;
+	font-weight: 400;
+	font-family: "Titillium Web", sans-serif;
+	color: #EF3224;
+}
+
+#chatops p {
+	color: #000000;
+	font-weight: 200;
+}
+
+#chatops p i {
+	font-size: 40px;
+}
+
+#chatops a:hover {
+  background-color: #FFFF00;
+}
+/* End ChatOps Div */
+
 /* Custom sponsor headers */
 #salesforce_header {
 	background-image: url('../sponsors/images/salesforce_large.png');
