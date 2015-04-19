@@ -1363,8 +1363,8 @@ p {
 	color: #000000;
 	visibility: hidden;
 }
-#happyapps_header {
-	background-image: url('../sponsors/images/happyapps_large.png');
+#rt_header {
+	background-image: url('../sponsors/images/releaseTeam_large.png');
 	height: 350px;
 	-webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -1380,8 +1380,8 @@ p {
   position: relative;
   top: -10px;
 }
-#happyapps_small_image {
-	background-image: url('../sponsors/images/happyapps_large.png');
+#rt_small_image {
+	background-image: url('../sponsors/images/releaseTeam_large.png');
 	height: 135px;
 	-webkit-background-size: 50%;
   -moz-background-size: 50%;
@@ -1398,7 +1398,7 @@ p {
 	text-align: -50px;
 }
 
-#happyapps_small_image p{
+#rt_small_image p{
 	position: relative;
   right: -10px;
 	bottom: -60px;
