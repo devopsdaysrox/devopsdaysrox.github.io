@@ -476,7 +476,7 @@ h2 {
   position: relative;
   width: 100%;
   display: flex;
-  height: 300px;
+  height: 320px;
 }
 
 #register {
@@ -494,15 +494,16 @@ h2 {
   background-color: #e27a3f;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .about-content {
-  width: 50%;
+  width: 80%;
   background-color: #75B46E;
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 70px 110px;
+  padding: 70px 70px 50px;
 }
 
 .when-content {
