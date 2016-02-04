@@ -494,7 +494,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  padding-top: 200px;
+  padding-top: 300px;
 }
 
 .about-content {
@@ -617,8 +617,9 @@ h2 {
 **************************/
 
 #sponsor {
-  background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
+/*  background-color: #1881a2; */
+  background-color: #9acce2;
+/*  background-image: url("../images/sponsor-bg-trans.png"); */
   background-position:50% 0;
   background-size: cover;
   background-repeat:no-repeat;
@@ -658,8 +659,9 @@ h2 {
 #sponsor .item ul li {
   display: inline-block;
   list-style: none;
-  width: 33.33%;
-  margin-bottom: 75px;
+  width: 33.333%;
+  margin-bottom: 25px;
+  padding: 10px;
 }
 
 #sponsor .item ul li:last-child {
@@ -716,7 +718,7 @@ h2 {
   position: absolute;
   left: 0;
   top: 0;
-  padding-left: 200px;
+  padding-left: 60px;
 }
 
 #contact .container {
