@@ -183,8 +183,15 @@ h2 {
   overflow: hidden;
 }
 
-#main-slider img {
+#poster img {
   width: 100%;
+  background-image: url("../images/poster.png");
+  background-color: #e27a3f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-top: 350px;
+  position: relative;
 }
 
 #main-slider
